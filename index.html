@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coach Ahmed | مدرب رياضي دبي</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Inter:wght@400;600;700;900&display=swap"
+        rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <!-- TICKER -->
+    <div class="ticker-wrap" style="margin-top:68px">
+        <div class="ticker-track" id="ticker"></div>
+    </div>
+
+    <!-- NAV -->
+    <nav>
+        <a href="#" class="nav-logo">COACH <em>AHMED</em></a>
+        <ul class="nav-links">
+            <li><a href="#about">عني</a></li>
+            <li><a href="#packages">الباقات</a></li>
+            <li><a href="#results">النتائج</a></li>
+        </ul>
+        <a href="#packages" class="nav-cta">احجز الآن</a>
+        <button class="hamburger" onclick="toggleNav()"><span></span><span></span><span></span></button>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-noise"></div>
+        <div class="hero-glow"></div>
+        <div class="hero-inner">
+            <div class="hero-content">
+                <div class="hero-eyebrow">دبي · مدرب رياضي معتمد</div>
+                <h1>
+                    جسمك اللي<br />
+                    <span class="gold">تحلم فيه</span><br />
+                    <span class="dim">في متناول إيدك</span>
+                </h1>
+                <p class="hero-desc">
+                    أكثر من ١٢ سنة خبرة في التدريب الشخصي، وقناة يوتيوب تجاوزت المليون متابع.
+                    التزام حقيقي، نتائج قابلة للقياس، وبروتوكول تدريبي مصمم لك أنت.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn-gold" onclick="openModal('online')">ابدأ التدريب معي</button>
+                    <a href="#packages" class="btn-ghost">تصفح الباقات</a>
+                </div>
+                <div class="hero-proof">
+                    <div class="proof-item"><strong>12<em>+</em></strong><span>سنوات خبرة</span></div>
+                    <div class="proof-item"><strong>1<em>M+</em></strong><span>متابع يوتيوب</span></div>
+                    <div class="proof-item"><strong>500<em>+</em></strong><span>عميل حوّلت حياته</span></div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="avatar-frame">
+                    <div class="avatar-bg"></div>
+                    <div class="avatar-emoji">🏋️</div>
+                    <div class="avatar-tag">
+                        <div class="dot"></div>
+                        <div class="tag-text">
+                            <strong>Coach Ahmed</strong>
+                            <span>دبي، الإمارات العربية المتحدة</span>
+                        </div>
+                        <span class="yt-badge">1M+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="about-inner">
+            <div class="reveal">
+                <div class="section-eyebrow">من أنا</div>
+                <h2 class="section-title">مدرب بني سمعته على<br />النتائج، مش الكلام</h2>
+                <p class="section-body">
+                    بدأت رحلتي مع التدريب الرياضي من شغفي الشخصي، وتحولت إلى مسيرة احترافية امتدت أكثر من ١٢ عاماً.
+                    من دبي، أدرّب أشخاصاً من مختلف أنحاء العالم، حضورياً وأونلاين، وأشارك تجربتي بشكل يومي على يوتيوب
+                    لأكثر من مليون متابع.
+                </p>
+                <div class="credentials">
+                    <div class="cred-item"><span class="cred-icon">🎓</span>
+                        <p><strong>NASM Certified Personal Trainer</strong>أعلى شهادات التدريب الشخصي عالمياً</p>
+                    </div>
+                    <div class="cred-item"><span class="cred-icon">📍</span>
+                        <p><strong>دبي، الإمارات</strong>تدريب حضوري في أفضل صالات دبي</p>
+                    </div>
+                    <div class="cred-item"><span class="cred-icon">▶️</span>
+                        <p><strong>يوتيوبر رياضي</strong>محتوى تثقيفي رياضي بالعربية — مليون متابع</p>
+                    </div>
+                    <div class="cred-item"><span class="cred-icon">🌍</span>
+                        <p><strong>تدريب أونلاين دولي</strong>عملاء من ٢٠+ دولة عربية وأجنبية</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-numbers reveal">
+                <div class="anumber"><big>92<span style="font-size:1.2rem">٪</span></big><span>معدل تحقيق الهدف</span>
+                </div>
+                <div class="anumber"><big>12</big><span>سنة خبرة</span></div>
+                <div class="anumber"><big>20<span style="font-size:1.2rem">+</span></big><span>دولة عملاء</span></div>
+                <div class="anumber"><big>1M<span style="font-size:1rem">+</span></big><span>متابع يوتيوب</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PACKAGES -->
+    <section id="packages">
+        <div style="max-width:1100px;margin:auto">
+            <div class="packages-header reveal">
+                <div>
+                    <div class="section-eyebrow">الباقات</div>
+                    <h2 class="section-title">استثمر في جسمك،<br />مرة واحدة وصح</h2>
+                </div>
+                <p style="color:var(--muted);font-size:.9rem;max-width:320px;text-align:right;line-height:1.8">
+                    باقتان فقط — واضحتان — بدون تعقيد. إيش يناسبك أنت.
+                </p>
+            </div>
+            <div class="packages-grid">
+
+                <!-- ONLINE -->
+                <div class="pkg-card reveal">
+                    <div class="pkg-body">
+                        <span class="pkg-icon">📱</span>
+                        <div class="pkg-type">أونلاين · عالمي</div>
+                        <h3>باقة التدريب أونلاين</h3>
+                        <p class="pkg-desc">برنامج تدريب وتغذية كامل يُصمَّم لك شخصياً. تتابع معي أسبوعياً عبر الفيديو،
+                            وتحصل على دعم يومي عبر الواتساب.</p>
+                        <div class="pkg-price">
+                            <span class="currency">$</span><span class="amount">150</span><span class="period">/
+                                شهر</span>
+                        </div>
+                        <ul class="pkg-features">
+                            <li>خطة تدريبية مخصصة بالكامل</li>
+                            <li>خطة تغذية محسوبة حسب هدفك</li>
+                            <li>متابعة أسبوعية عبر فيديو كول</li>
+                            <li>دعم يومي على واتساب</li>
+                            <li>تعديل الخطة كل أسبوعين</li>
+                        </ul>
+                        <button class="pkg-cta pkg-cta-outline" onclick="openModal('online')">سجّل اهتمامك —
+                            مجاناً</button>
+                    </div>
+                </div>
+
+                <!-- IN-PERSON -->
+                <div class="pkg-card featured reveal">
+                    <div class="pkg-featured-badge">✦ الأكثر طلباً · دبي</div>
+                    <div class="pkg-body">
+                        <span class="pkg-icon">🏟️</span>
+                        <div class="pkg-type">حضوري · دبي</div>
+                        <h3>باقة التدريب الحضوري</h3>
+                        <p class="pkg-desc">تدريب وجهاً لوجه في دبي. أنا معك في كل تمرين، أصحح أسلوبك، وأدفعك إلى حدودك
+                            الحقيقية. التجربة الكاملة.</p>
+                        <div class="pkg-price">
+                            <span class="currency">AED</span><span class="amount">3,500</span><span class="period">/
+                                شهر</span>
+                        </div>
+                        <ul class="pkg-features">
+                            <li>٨ جلسات تدريبية شهرياً</li>
+                            <li>تقييم جسدي كامل عند البداية</li>
+                            <li>خطة تغذية متكاملة</li>
+                            <li>متابعة يومية على واتساب</li>
+                            <li>فيديو تذكاري لتحولك</li>
+                            <li>أولوية في الحجز والمواعيد</li>
+                        </ul>
+                        <button class="pkg-cta pkg-cta-gold" onclick="openModal('inperson')">احجز مقعدك الآن</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section id="results">
+        <div class="results-header reveal">
+            <div class="section-eyebrow" style="justify-content:center">النتائج</div>
+            <h2 class="section-title">أرقام حقيقية من أشخاص حقيقيين</h2>
+            <p class="section-body">لا وعود مبالغ فيها — نتائج قابلة للقياس، موثّقة، ومن عملاء فعليين.</p>
+        </div>
+        <div class="results-grid" style="max-width:1100px;margin:auto">
+            <div class="result-card reveal">
+                <span class="result-emoji">💪</span>
+                <div class="result-name">خالد م.</div>
+                <div class="result-tag">فقد ١٨ كجم في ٤ أشهر</div>
+                <p class="result-text">"ما كنت أصدق إن ممكن أوصل لهذا الجسم. الكوتش أحمد غيّر طريقة تفكيري كلها تجاه
+                    الرياضة والأكل."</p>
+            </div>
+            <div class="result-card reveal">
+                <span class="result-emoji">🔥</span>
+                <div class="result-name">سارة ع.</div>
+                <div class="result-tag">أونلاين من السعودية</div>
+                <p class="result-text">"التدريب أونلاين كان أفضل قرار اتخذته. المتابعة اليومية والخطة المخصصة خلتني
+                    ملتزمة للمرة الأولى."</p>
+            </div>
+            <div class="result-card reveal">
+                <span class="result-emoji">🏆</span>
+                <div class="result-name">فيصل ر.</div>
+                <div class="result-tag">تدريب حضوري · دبي</div>
+                <p class="result-text">"بعد ٦ أشهر من التدريب الحضوري، وصلت لأوزان ما تخيلتها قبل. الكوتش يعرف كيف يدفعك
+                    بالطريقة الصح."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h3>COACH <em>AHMED</em></h3>
+                    <p>مدرب شخصي معتمد · يوتيوبر رياضي · دبي، الإمارات</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>الصفحة</h4>
+                        <ul>
+                            <li><a href="#about">عني</a></li>
+                            <li><a href="#packages">الباقات</a></li>
+                            <li><a href="#results">النتائج</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>تواصل</h4>
+                        <ul>
+                            <li><a href="#">يوتيوب</a></li>
+                            <li><a href="#">انستجرام</a></li>
+                            <li><a href="https://wa.me/971501234567">واتساب</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 Coach Ahmed. All rights reserved.</span>
+                <a href="#">سياسة الخصوصية</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOAT WA -->
+    <a href="https://wa.me/971501234567" class="float-wa" target="_blank" title="واتساب">💬</a>
+
+    <!-- MODAL FILTER -->
+    <div class="modal-overlay" id="modal" onclick="handleOverlayClick(event)">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeModal()">✕</button>
+            <div class="modal-header">
+                <div class="modal-eyebrow" id="modalPkgLabel">التدريب الحضوري · دبي</div>
+                <h2>قبل ما تكمل، خليني أعرفك</h2>
+                <p>٣ أسئلة سريعة تساعدني أفهم وضعك وأضمن إن التدريب معي هو الخطوة الصح.</p>
+            </div>
+            <div class="step-progress">
+                <div class="step-dot" id="dot0"></div>
+                <div class="step-dot" id="dot1"></div>
+                <div class="step-dot" id="dot2"></div>
+            </div>
+
+            <!-- Step 1 -->
+            <div class="modal-step active" id="step0">
+                <p class="q-label">١. ما هو هدفك الرئيسي؟</p>
+                <div class="q-options">
+                    <div class="q-opt" onclick="selectOpt(this,'goal','lose')"><span class="opt-icon">🔥</span> خسارة
+                        الوزن والدهون</div>
+                    <div class="q-opt" onclick="selectOpt(this,'goal','muscle')"><span class="opt-icon">💪</span> بناء
+                        العضلات وزيادة القوة</div>
+                    <div class="q-opt" onclick="selectOpt(this,'goal','both')"><span class="opt-icon">⚡</span> كلاهما —
+                        تحسين شامل</div>
+                    <div class="q-opt" onclick="selectOpt(this,'goal','health')"><span class="opt-icon">❤️</span> صحة
+                        عامة ولياقة</div>
+                </div>
+                <div class="modal-nav">
+                    <button class="modal-next" onclick="nextStep()">التالي ←</button>
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="modal-step" id="step1">
+                <p class="q-label">٢. ما مستوى التزامك الشهري بالتدريب؟</p>
+                <div class="q-options">
+                    <div class="q-opt" onclick="selectOpt(this,'commit','high')"><span class="opt-icon">🏆</span> مرتفع
+                        جداً — أنا جاهز ١٠٠٪</div>
+                    <div class="q-opt" onclick="selectOpt(this,'commit','medium')"><span class="opt-icon">📈</span>
+                        متوسط — أحاول أحافظ على الاستمرارية</div>
+                    <div class="q-opt" onclick="selectOpt(this,'commit','low')"><span class="opt-icon">🤔</span> منخفض —
+                        أبحث عن الدافع</div>
+                </div>
+                <div class="modal-nav">
+                    <button class="modal-prev" onclick="prevStep()">→ السابق</button>
+                    <button class="modal-next" onclick="nextStep()">التالي ←</button>
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="modal-step" id="step2">
+                <p class="q-label">٣. هل أنت مستعد للاستثمار في تحول حقيقي؟</p>
+                <div class="q-options">
+                    <div class="q-opt" onclick="selectOpt(this,'invest','yes')"><span class="opt-icon">✅</span> نعم —
+                        أنا جاد وأعرف قيمة الاستثمار بجسمي</div>
+                    <div class="q-opt" onclick="selectOpt(this,'invest','maybe')"><span class="opt-icon">💭</span> ربما
+                        — أحتاج معرفة المزيد أولاً</div>
+                    <div class="q-opt" onclick="selectOpt(this,'invest','no')"><span class="opt-icon">❌</span> لأ — أبحث
+                        عن خيار مجاني</div>
+                </div>
+                <div class="modal-nav">
+                    <button class="modal-prev" onclick="prevStep()">→ السابق</button>
+                    <button class="modal-next" onclick="submitModal()">إرسال ←</button>
+                </div>
+            </div>
+
+            <!-- Result -->
+            <div class="modal-step" id="stepResult">
+                <div class="modal-result">
+                    <span class="check" id="resultIcon">✅</span>
+                    <h3 id="resultTitle">أنت مرشح ممتاز!</h3>
+                    <p id="resultText">بناءً على إجاباتك، التدريب معي سيكون مناسباً جداً لك. تواصل معي الآن على واتساب
+                        لنحجز جلسة استشارية مجانية.</p>
+                    <a href="https://wa.me/971501234567?text=مرحباً كوتش، أريد الاستفسار عن التدريب" class="wa-btn"
+                        target="_blank" id="resultWa">
+                        <span>💬</span> تواصل على واتساب
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
