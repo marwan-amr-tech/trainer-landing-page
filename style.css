@@ -329,8 +329,8 @@
 
         .avatar-frame {
             position: relative;
-            width: 320px;
-            height: 420px;
+            width: 500px;
+            height: 500px;
             border-radius: var(--r);
             overflow: hidden;
             border: 1px solid var(--border);
@@ -349,7 +349,7 @@
         .avatar-emoji {
             font-size: 9rem;
             position: absolute;
-            top: 40px;
+            top: 30px;
             left: 50%;
             transform: translateX(-50%);
             filter: grayscale(0)
@@ -1174,21 +1174,21 @@
             transform: translateY(0)
         }
 
-                                .mobile-nav-open .nav-links {
-                                    display: flex;
-                                    flex-direction: column;
-                                    position: fixed;
-                                    top: 68px;
-                                    right: 0;
-                                    width: 220px;
-                                    background: var(--card);
-                                    border-left: 1px solid var(--border);
-                                    padding: 1.5rem;
-                                    gap: 1rem;
-                                    height: calc(100vh - 68px);
-                                }
-                
-                                .mobile-nav-open .nav-cta {
-                                    display: inline-block;
-                                    margin: .5rem 1.5rem
-                                }
+        .mobile-nav-open .nav-links {
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            top: 68px;
+            right: 0;
+            width: 220px;
+            background: var(--card);
+            border-left: 1px solid var(--border);
+            padding: 1.5rem;
+            gap: 1rem;
+            height: calc(100vh - 68px);
+        }
+
+        .mobile-nav-open .nav-cta {
+            display: inline-block;
+            margin: .5rem 1.5rem
+        }
